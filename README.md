@@ -82,7 +82,7 @@ reg_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(reg_cm,'\n')
-print('precisão: ',accuracy(reg_cm)*100,'%')
+print('acurácia: ',accuracy(reg_cm)*100,'%')
 classification_view(X_train, y_train, lr_classifier)
 ```
 
@@ -90,7 +90,7 @@ classification_view(X_train, y_train, lr_classifier)
     [[65  8]
      [ 3 24]] 
     
-    precisão:  89.0 %
+    acurácia:  89.0 %
 
 
 
@@ -111,7 +111,7 @@ knn_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(knn_cm,'\n')
-print('precisão: ',accuracy(knn_cm)*100,'%')
+print('acurácia: ',accuracy(knn_cm)*100,'%')
 classification_view(X_train, y_train, knn_classifier)
 ```
 
@@ -119,7 +119,7 @@ classification_view(X_train, y_train, knn_classifier)
     [[64  3]
      [ 4 29]] 
     
-    precisão:  93.0 %
+    acurácia:  93.0 %
 
 
 
@@ -140,7 +140,7 @@ svm_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(svm_cm, '\n')
-print('precisão: ',accuracy(svm_cm)*100, '%')
+print('acurácia: ',accuracy(svm_cm)*100, '%')
 classification_view(X_train, y_train, svm_classifier)
 ```
 
@@ -148,7 +148,7 @@ classification_view(X_train, y_train, svm_classifier)
     [[66  8]
      [ 2 24]] 
     
-    precisão:  90.0 %
+    acurácia:  90.0 %
 
 
 
@@ -167,7 +167,7 @@ svm_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(svm_cm,'\n')
-print('precisão: ',accuracy(svm_cm)*100, '%')
+print('acurácia: ',accuracy(svm_cm)*100, '%')
 classification_view(X_train, y_train, svm_classifier)
 ```
 
@@ -175,7 +175,7 @@ classification_view(X_train, y_train, svm_classifier)
     [[64  3]
      [ 4 29]] 
     
-    precisão:  93.0 %
+    acurácia:  93.0 %
 
 
 
@@ -196,7 +196,7 @@ nb_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(nb_cm,'\n')
-print('precisão: ',accuracy(nb_cm)*100, '%')
+print('acurácia: ',accuracy(nb_cm)*100, '%')
 classification_view(X_train, y_train, nb_classifier)
 ```
 
@@ -204,7 +204,7 @@ classification_view(X_train, y_train, nb_classifier)
     [[65  7]
      [ 3 25]] 
     
-    precisão:  90.0 %
+    acurácia:  90.0 %
 
 
 
@@ -225,7 +225,7 @@ tree_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(tree_cm,'\n')
-print('precisão: ',accuracy(tree_cm)*100, '%')
+print('acurácia: ',accuracy(tree_cm)*100, '%')
 classification_view(X_train, y_train, tree_classifier)
 ```
 
@@ -233,7 +233,7 @@ classification_view(X_train, y_train, tree_classifier)
     [[62  4]
      [ 6 28]] 
     
-    precisão:  90.0 %
+    acurácia:  90.0 %
 
 
 
@@ -254,7 +254,7 @@ rf_cm = confusion_matrix(y_pred, y_test)
 
 print('matriz de confusão:')
 print(rf_cm,'\n')
-print('precisão: ',accuracy(rf_cm)*100, '%')
+print('acurácia: ',accuracy(rf_cm)*100, '%')
 classification_view(X_train, y_train, rf_classifier)
 ```
 
@@ -262,7 +262,7 @@ classification_view(X_train, y_train, rf_classifier)
     [[64  2]
      [ 4 30]] 
     
-    precisão:  94.0 %
+    acurácia:  94.0 %
 
 
 
